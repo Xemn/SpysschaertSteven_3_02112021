@@ -99,6 +99,32 @@ header img {
   font-size: 1em;
   margin-bottom: 1em;
   padding: 1em 0 1em 0;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+.fonctionnementButton:hover i {
+  color: #9356dc;
+}
+.fonctionnementButton:hover::after {
+  opacity: 1;
+}
+.fonctionnementButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 2em;
+  z-index: -1;
+  opacity: 0;
+  background-color: #f5edff;
+  transition: opacity 400ms ease-in-out;
+  -webkit-transition: opacity 400ms ease-in-out;
+  -moz-transition: opacity 400ms ease-in-out;
+  -ms-transition: opacity 400ms ease-in-out;
+  -o-transition: opacity 400ms ease-in-out;
 }
 .fonctionnementButton > .fonctionnementButton__menuNum {
   position: relative;
@@ -123,6 +149,11 @@ header img {
   margin-left: 1em;
   margin-right: 2em;
   width: 20px;
+  transition: 400ms ease-in-out;
+  -webkit-transition: 400ms ease-in-out;
+  -moz-transition: 400ms ease-in-out;
+  -ms-transition: 400ms ease-in-out;
+  -o-transition: 400ms ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
