@@ -1,0 +1,19 @@
+{
+  "name": "p3_spysschaert_steven",
+  "version": "1.0.0",
+  "description": "Ohmyfood website project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:.style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xemn/SpysschaertSteven_3_02112021.git"
+  },
+  "author": "Steven Spysschaert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xemn/SpysschaertSteven_3_02112021/issues"
+  },
+  "homepage": "https://github.com/Xemn/SpysschaertSteven_3_02112021#readme"
+}
