@@ -1,4 +1,4 @@
-button {
+.submitButton {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -41,5 +41,47 @@ button {
     -moz-transition: opacity 400ms ease-in-out;
     -ms-transition: opacity 400ms ease-in-out;
     -o-transition: opacity 400ms ease-in-out;
+  }
+}
+
+.fonctionnementButton {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  @include bg-colour(#f6f6f6);
+  border: transparent;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding: 1em 0 1em 0;
+
+  > .fonctionnementButton__menuNum {
+    position: relative;
+    font-size: 0.75em;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    right: 0.5em;
+    color: white;
+    @include bg-colour($colour-primary);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  > i {
+    font-size: 1.25rem;
+    position: relative;
+    margin-left: 1em;
+    margin-right: 2em;
+    width: 20px;
   }
 }
