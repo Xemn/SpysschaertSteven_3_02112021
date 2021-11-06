@@ -1,0 +1,45 @@
+button {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  color: white;
+  border-radius: 2em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+  padding: 1em;
+  background: linear-gradient(175deg, $colour-secondary, $colour-primary);
+  border: transparent;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 2em;
+    background: linear-gradient(
+      175deg,
+      lighten($colour-secondary, 5),
+      lighten($colour-primary, 5)
+    );
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 400ms ease-in-out;
+    -webkit-transition: opacity 400ms ease-in-out;
+    -moz-transition: opacity 400ms ease-in-out;
+    -ms-transition: opacity 400ms ease-in-out;
+    -o-transition: opacity 400ms ease-in-out;
+  }
+}
