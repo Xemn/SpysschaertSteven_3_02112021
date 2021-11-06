@@ -47,7 +47,7 @@
 .fonctionnementButton {
   display: flex;
   align-items: center;
-  width: 320px;
+  width: 100%;
   @include bg-colour(#f6f6f6);
   border: transparent;
   border-radius: 1em;
