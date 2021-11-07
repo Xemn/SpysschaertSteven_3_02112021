@@ -51,6 +51,20 @@ footer .fa-hands-helping {
   margin-right: 5px;
 }
 
+.menu {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border: 1px solid transparent;
+  background-color: #f6f6f6;
+  margin-top: -1em;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 4em;
+}
+.menu > div {
+  margin-left: 1em;
+}
+
 .research {
   background-color: #f6f6f6;
   padding-bottom: 2em;
