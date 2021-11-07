@@ -1,0 +1,48 @@
+.cardContainer {
+  margin-left: 1em;
+  margin-right: 1em;
+
+  &__card {
+    width: 100%;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    margin-bottom: 1em;
+    @include bg-colour(white);
+
+    h3 {
+      margin-bottom: 0.5em;
+    }
+
+    .card__title {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+
+      &__description {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    p {
+      margin-top: 0;
+      width: 70%;
+    }
+
+    i {
+      font-size: 2em;
+      position: relative;
+      bottom: 1em;
+    }
+  }
+
+  img {
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    object-fit: cover;
+    height: 180px;
+  }
+}
