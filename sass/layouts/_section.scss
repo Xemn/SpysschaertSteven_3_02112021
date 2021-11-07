@@ -1,0 +1,14 @@
+.menu {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border: 1px solid transparent;
+  @include bg-colour(#f6f6f6);
+  margin-top: -1em;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 4em;
+
+  > div {
+    margin-left: 1em;
+  }
+}
