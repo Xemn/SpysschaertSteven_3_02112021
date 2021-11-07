@@ -35,4 +35,14 @@
 .fonctionnementMenu {
   padding-left: 1em;
   padding-right: 1em;
+  margin-bottom: 4em;
+}
+
+.restaurantSection {
+  @include bg-colour(#f6f6f6);
+  h2 {
+    margin-left: 1rem;
+    padding-top: 2em;
+  }
+  padding-bottom: 2em;
 }
