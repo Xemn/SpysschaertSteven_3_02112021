@@ -247,4 +247,13 @@ footer .fa-hands-helping {
   height: 180px;
 }
 
+figure {
+  margin: 0;
+}
+figure img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
