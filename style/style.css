@@ -133,6 +133,9 @@ footer .fa-hands-helping {
   -ms-transition: opacity 400ms ease-in-out;
   -o-transition: opacity 400ms ease-in-out;
 }
+.submitButton--command {
+  width: 50%;
+}
 
 .fonctionnementButton {
   display: flex;
