@@ -42,6 +42,9 @@
     -ms-transition: opacity 400ms ease-in-out;
     -o-transition: opacity 400ms ease-in-out;
   }
+  &--command {
+    width: 50%;
+  }
 }
 
 .fonctionnementButton {
