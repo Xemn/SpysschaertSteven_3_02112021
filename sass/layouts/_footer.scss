@@ -1,0 +1,37 @@
+footer {
+  @include bg-colour(#353535);
+  padding-bottom: 1em;
+
+  img {
+    height: 1em;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    margin-left: 1em;
+    padding-top: 1em;
+  }
+
+  ul {
+    padding-left: 1em;
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .fa-utensils {
+    margin-right: 12px;
+  }
+  .fa-hands-helping {
+    margin-right: 5px;
+  }
+}
