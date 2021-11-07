@@ -44,6 +44,16 @@ header img {
 .fonctionnementMenu {
   padding-left: 1em;
   padding-right: 1em;
+  margin-bottom: 4em;
+}
+
+.restaurantSection {
+  background-color: #f6f6f6;
+  padding-bottom: 2em;
+}
+.restaurantSection h2 {
+  margin-left: 1rem;
+  padding-top: 2em;
 }
 
 .submitButton {
@@ -154,6 +164,48 @@ header img {
   -moz-transition: 400ms ease-in-out;
   -ms-transition: 400ms ease-in-out;
   -o-transition: 400ms ease-in-out;
+}
+
+.cardContainer {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.cardContainer__card {
+  width: 100%;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  margin-bottom: 1em;
+  background-color: white;
+}
+.cardContainer__card h3 {
+  margin-bottom: 0.5em;
+}
+.cardContainer__card .card__title {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.cardContainer__card .card__title__description {
+  display: flex;
+  justify-content: space-between;
+}
+.cardContainer__card p {
+  margin-top: 0;
+  width: 70%;
+}
+.cardContainer__card i {
+  font-size: 2em;
+  position: relative;
+  bottom: 1em;
+}
+.cardContainer img {
+  width: 100%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  object-fit: cover;
+  height: 180px;
 }
 
 /*# sourceMappingURL=style.css.map */
