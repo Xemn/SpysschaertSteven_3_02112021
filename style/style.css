@@ -12,6 +12,38 @@ header img {
   height: 1.5em;
 }
 
+footer {
+  background-color: #353535;
+  padding-bottom: 1em;
+}
+footer img {
+  height: 1em;
+  filter: invert(1);
+  -webkit-filter: invert(1);
+  margin-left: 1em;
+  padding-top: 1em;
+}
+footer ul {
+  padding-left: 1em;
+  list-style-type: none;
+}
+footer li {
+  margin-bottom: 0.5em;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .fa-utensils {
+  margin-right: 12px;
+}
+footer .fa-hands-helping {
+  margin-right: 5px;
+}
+
 .research {
   background-color: #f6f6f6;
   padding-bottom: 2em;
