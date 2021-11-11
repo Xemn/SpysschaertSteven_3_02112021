@@ -1,0 +1,42 @@
+.heart {
+  position: relative;
+  bottom: 1.5em;
+  left: 1em;
+
+  .fas {
+    position: relative;
+    right: 1.13em;
+    background: linear-gradient(90deg, #ff79da, #9356dc);
+    background-clip: border-box;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: 50% 100%;
+    transition: all 400ms ease-in-out;
+    color: transparent;
+    background-clip: text;
+  }
+
+  &:hover {
+    .fas {
+      opacity: 1;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+    }
+
+    .far {
+      color: transparent;
+    }
+  }
+
+  &--restaurant {
+    position: relative;
+    top: 0.1em;
+
+    > i {
+      font-size: 1.5em;
+    }
+  }
+}
