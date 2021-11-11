@@ -80,7 +80,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    border-radius: 2em;
+    border-radius: 1em;
     z-index: -1;
     opacity: 0;
     background-color: #f5edff;
@@ -89,6 +89,10 @@
     -moz-transition: opacity 400ms ease-in-out;
     -ms-transition: opacity 400ms ease-in-out;
     -o-transition: opacity 400ms ease-in-out;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
   }
 
   > .fonctionnementButton__menuNum {
