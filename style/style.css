@@ -284,6 +284,7 @@ footer .fa-hands-helping {
   display: flex;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 1em;
 }
 .mealContainer .mealContainer__card:hover .text__price {
   transform: translateX(-60px);
