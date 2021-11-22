@@ -165,3 +165,22 @@
     }
   }
 }
+
+.entrees,
+.plats,
+.desserts {
+  animation: fadeIn 800ms forwards ease-in-out;
+  opacity: 0;
+}
+
+.entree {
+  animation-delay: 200ms;
+}
+
+.plats {
+  animation-delay: 400ms;
+}
+
+.desserts {
+  animation-delay: 600ms;
+}
