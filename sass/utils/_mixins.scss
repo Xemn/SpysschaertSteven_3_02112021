@@ -1,3 +1,11 @@
 @mixin bg-colour($colour) {
   background-color: $colour;
 }
+
+@mixin media-minwidth($_key) {
+  @media screen and (min-width: map-get($breakpoints, $_key)) {
+    & {
+      @content;
+    }
+  }
+}
