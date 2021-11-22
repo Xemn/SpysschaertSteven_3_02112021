@@ -2,6 +2,11 @@
   margin-left: 1em;
   margin-right: 1em;
 
+  @include media-minwidth("desktop") {
+    display: flex;
+    justify-content: space-around;
+  }
+
   &__card {
     width: 100%;
     border-radius: 1em;
@@ -40,6 +45,10 @@
 
     i {
       font-size: 1.5em;
+    }
+
+    @include media-minwidth("desktop") {
+      margin-right: 1em;
     }
   }
 
