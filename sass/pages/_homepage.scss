@@ -36,6 +36,24 @@
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 4em;
+
+  @include media-minwidth("desktop") {
+    margin-bottom: 2em;
+  }
+
+  h2 {
+    @include media-minwidth("desktop") {
+      text-align: center;
+    }
+  }
+}
+
+.fonctionnementMenu__buttons {
+  @include media-minwidth("desktop") {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .restaurantSection {
