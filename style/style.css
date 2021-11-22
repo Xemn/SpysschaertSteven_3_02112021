@@ -284,6 +284,12 @@ footer .fa-hands-helping {
   margin-left: 1em;
   margin-right: 1em;
 }
+@media screen and (min-width: 1224px) {
+  .cardContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 .cardContainer__card {
   width: 100%;
   border-radius: 1em;
@@ -317,6 +323,11 @@ footer .fa-hands-helping {
 }
 .cardContainer__card i {
   font-size: 1.5em;
+}
+@media screen and (min-width: 1224px) {
+  .cardContainer__card {
+    margin-right: 1em;
+  }
 }
 .cardContainer img {
   width: 100%;
