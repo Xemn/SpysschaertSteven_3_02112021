@@ -124,6 +124,24 @@ footer .fa-hands-helping {
   padding-right: 1em;
   margin-bottom: 4em;
 }
+@media screen and (min-width: 1224px) {
+  .fonctionnementMenu {
+    margin-bottom: 2em;
+  }
+}
+@media screen and (min-width: 1224px) {
+  .fonctionnementMenu h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .fonctionnementMenu__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 
 .restaurantSection {
   background-color: #f6f6f6;
@@ -175,6 +193,11 @@ footer .fa-hands-helping {
 .submitButton--command {
   width: 50%;
   margin-top: 3rem;
+}
+@media screen and (min-width: 1224px) {
+  .submitButton {
+    width: 25%;
+  }
 }
 
 .fonctionnementButton {
@@ -250,6 +273,11 @@ footer .fa-hands-helping {
   -moz-transition: 400ms ease-in-out;
   -ms-transition: 400ms ease-in-out;
   -o-transition: 400ms ease-in-out;
+}
+@media screen and (min-width: 1224px) {
+  .fonctionnementButton {
+    width: 30%;
+  }
 }
 
 .cardContainer {
