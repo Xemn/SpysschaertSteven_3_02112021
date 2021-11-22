@@ -46,6 +46,10 @@
     width: 50%;
     margin-top: 3rem;
   }
+
+  @include media-minwidth("desktop") {
+    width: 25%;
+  }
 }
 
 .fonctionnementButton {
@@ -125,5 +129,9 @@
     -moz-transition: 400ms ease-in-out;
     -ms-transition: 400ms ease-in-out;
     -o-transition: 400ms ease-in-out;
+  }
+
+  @include media-minwidth("desktop") {
+    width: 30%;
   }
 }
