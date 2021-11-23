@@ -97,6 +97,12 @@ footer .fa-hands-helping {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 1080px) {
+  .menu > div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .menu > .menu__restaurantName {
   display: flex;
   align-items: center;
@@ -476,6 +482,13 @@ footer .fa-hands-helping {
   opacity: 0;
 }
 @media screen and (min-width: 1224px) {
+  .entrees,
+.plats,
+.desserts {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1080px) {
   .entrees,
 .plats,
 .desserts {
