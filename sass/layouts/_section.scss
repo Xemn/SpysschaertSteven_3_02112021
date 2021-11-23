@@ -16,6 +16,11 @@
       display: flex;
       justify-content: space-between;
     }
+
+    @include media-minwidth("tablet-down") {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   > .menu__restaurantName {
