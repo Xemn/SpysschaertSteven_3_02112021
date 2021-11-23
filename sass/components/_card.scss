@@ -5,6 +5,7 @@
   @include media-minwidth("desktop") {
     display: flex;
     justify-content: space-around;
+    margin-right: 0;
   }
 
   &__card {
