@@ -61,6 +61,10 @@
   h2 {
     margin-left: 1rem;
     padding-top: 2em;
+
+    @include media-minwidth("desktop") {
+      text-align: center;
+    }
   }
   padding-bottom: 2em;
 }
