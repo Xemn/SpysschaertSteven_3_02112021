@@ -181,7 +181,10 @@
 .desserts {
   animation: fadeIn 800ms forwards ease-in-out;
   opacity: 0;
-  width: 30%;
+
+  @include media-minwidth("desktop") {
+    width: 30%;
+  }
 }
 
 .entree {
