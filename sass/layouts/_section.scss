@@ -11,11 +11,20 @@
   > div {
     margin-left: 1em;
     margin-right: 1em;
+
+    @include media-minwidth("desktop") {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   > .menu__restaurantName {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @include media-minwidth("desktop") {
+      justify-content: center;
+    }
   }
 }
