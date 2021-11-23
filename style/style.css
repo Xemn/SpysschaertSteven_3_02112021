@@ -466,7 +466,13 @@ footer .fa-hands-helping {
 .desserts {
   animation: fadeIn 800ms forwards ease-in-out;
   opacity: 0;
-  width: 30%;
+}
+@media screen and (min-width: 1224px) {
+  .entrees,
+.plats,
+.desserts {
+    width: 30%;
+  }
 }
 
 .entree {
