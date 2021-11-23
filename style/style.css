@@ -314,6 +314,14 @@ footer .fa-hands-helping {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 800px) {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2em;
+  }
+}
 .cardContainer__card {
   width: 100%;
   border-radius: 1em;
