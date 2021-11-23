@@ -148,6 +148,11 @@
     }
   }
 
+  h2 span {
+    border-bottom: 4px solid $colour-tertiary;
+    padding-bottom: 0.25em;
+  }
+
   h3 {
     margin: 0;
     overflow: hidden;
