@@ -91,10 +91,21 @@ footer .fa-hands-helping {
   margin-left: 1em;
   margin-right: 1em;
 }
+@media screen and (min-width: 1224px) {
+  .menu > div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .menu > .menu__restaurantName {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (min-width: 1224px) {
+  .menu > .menu__restaurantName {
+    justify-content: center;
+  }
 }
 
 .research {
@@ -455,6 +466,7 @@ footer .fa-hands-helping {
 .desserts {
   animation: fadeIn 800ms forwards ease-in-out;
   opacity: 0;
+  width: 30%;
 }
 
 .entree {
