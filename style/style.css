@@ -1,5 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+@keyframes bgc {
+  0% {
+    opacity: 1;
+    color: #9356dc;
+  }
+  50% {
+    color: #ff79da;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+}
 @keyframes fadeIn {
   0% {
     transform: translateY(20px);
@@ -9,7 +32,8 @@
     opacity: 1;
   }
 }
-h1 {
+h1,
+span {
   font-family: "Shrikhand";
 }
 
@@ -112,6 +136,30 @@ footer .fa-hands-helping {
   .menu > .menu__restaurantName {
     justify-content: center;
   }
+}
+
+.loader {
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #9356dc;
+  animation: bgc 3000ms ease-in-out;
+  opacity: 0;
+}
+.loader > .loader__span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+.loader > .loader__span span {
+  animation: wave 1000ms ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--a));
 }
 
 .research {
