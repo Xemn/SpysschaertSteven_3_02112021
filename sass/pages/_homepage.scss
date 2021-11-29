@@ -1,6 +1,5 @@
 .loader {
   position: fixed;
-  z-index: 2;
   height: 100%;
   width: 100%;
   display: flex;
@@ -10,6 +9,7 @@
   color: $colour-primary;
   animation: bgc 3000ms ease-in-out;
   opacity: 0;
+  z-index: -1;
 
   > .loader__span {
     display: flex;
