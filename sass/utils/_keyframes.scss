@@ -1,24 +1,30 @@
 @keyframes bgc {
   0% {
+    z-index: 2;
     opacity: 1;
     color: $colour-primary;
   }
   50% {
+    z-index: 2;
     color: $colour-secondary;
   }
   100% {
     opacity: 0;
+    z-index: 2;
   }
 }
 
 @keyframes wave {
   0% {
+    z-index: 2;
     transform: translateY(0);
   }
   30% {
+    z-index: 2;
     transform: translateY(-40px);
   }
   60% {
+    z-index: 2;
     transform: translateY(0);
   }
 }
