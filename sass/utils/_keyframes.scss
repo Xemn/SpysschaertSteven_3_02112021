@@ -1,3 +1,28 @@
+@keyframes bgc {
+  0% {
+    opacity: 1;
+    color: $colour-primary;
+  }
+  50% {
+    color: $colour-secondary;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+}
+
 @keyframes fadeIn {
   0% {
     transform: translateY(20px);
