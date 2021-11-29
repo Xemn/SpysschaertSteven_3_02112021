@@ -1,3 +1,29 @@
+.loader {
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: $colour-primary;
+  animation: bgc 3000ms ease-in-out;
+  opacity: 0;
+
+  > .loader__span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+
+    span {
+      animation: wave 1000ms ease-in-out infinite;
+      animation-delay: calc(0.1s * var(--a));
+    }
+  }
+}
+
 .research {
   @include bg-colour(#f6f6f6);
   padding-bottom: 2em;
