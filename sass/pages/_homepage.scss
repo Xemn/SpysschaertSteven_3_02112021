@@ -19,7 +19,7 @@
 
     span {
       animation: wave 1000ms ease-in-out infinite;
-      animation-delay: calc(0.1s * var(--a));
+      @include delay(0.1s);
     }
   }
 }
