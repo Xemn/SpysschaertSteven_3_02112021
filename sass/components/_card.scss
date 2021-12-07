@@ -5,7 +5,6 @@
   @include media-minwidth("desktop") {
     display: flex;
     justify-content: space-around;
-    margin-right: 0;
   }
 
   @include media-minwidth("tablet-up") {
